@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component layout matches the snapshot 1`] = `
+Array [
+  <p
+    id="count"
+    style={
+        Object {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "margin": "auto",
+          }
+    }
+>
+    CLICK COUNT: 
+    0
+</p>,
+  <button
+    id="increment-btn"
+    onClick={[Function]}
+    style={
+        Object {
+            "padding": 20,
+          }
+    }
+>
+    ++++
+</button>,
+  <button
+    id="decrement-btn"
+    onClick={[Function]}
+    style={
+        Object {
+            "padding": 20,
+          }
+    }
+>
+    DECREMENT
+</button>,
+]
+`;

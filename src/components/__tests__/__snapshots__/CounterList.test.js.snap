@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterList component layout matches the snapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "center",
+    }
+  }
+>
+  <h1
+    style={
+      Object {
+        "backgroundColor": "lightgray",
+        "color": "black",
+        "margin": 0,
+        "padding": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    COUNTER LIST
+  </h1>
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <button
+      id="add-counter"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "green",
+          "color": "white",
+          "height": 50,
+          "width": "50%",
+        }
+      }
+    >
+      ADD
+    </button>
+    <button
+      id="remove-counter"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "red",
+          "color": "white",
+          "height": 50,
+          "width": "50%",
+        }
+      }
+    >
+      DELETE
+    </button>
+  </div>
+  <ul
+    style={
+      Object {
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "display": "flex",
+          "justifyContent": "space-between",
+          "margin": 0,
+          "padding": 0,
+        }
+      }
+    >
+      <p
+        id="count"
+        style={
+          Object {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "margin": "auto",
+          }
+        }
+      >
+        CLICK COUNT: 
+        0
+      </p>
+      <button
+        id="increment-btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "padding": 20,
+          }
+        }
+      >
+        INCREMENT
+      </button>
+      <button
+        id="decrement-btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "padding": 20,
+          }
+        }
+      >
+        DECREMENT
+      </button>
+    </div>
+  </ul>
+</div>
+`;
